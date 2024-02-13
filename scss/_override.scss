@@ -1,0 +1,35 @@
+@use 'sass:color';
+
+$min-contrast-ratio: 2.5;
+
+$yerrow: #FCA314;
+$oranger: #FC9014;
+
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$gray-1000: #181a1c;
+$gray-1200: #131313;
+$white: $gray-200;
+$black: $gray-1200;
+
+$primary: $yerrow;
+$secondary: $gray-900;
+$warning: $oranger;
+$info: $gray-800;
+
+$dark: $gray-1000;
+$light: $white;
+
+$very-dark: color.scale($dark, $lightness: -25%);
+
+$text-white: $gray-300;
+$text-light: $gray-600;
+$text-dark: $dark;
+$text-muted: $gray-600;
