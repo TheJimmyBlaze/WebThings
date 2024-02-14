@@ -19,3 +19,11 @@ hr {
 .fs-7 {
     font-size: $font-size-base * 0.75;
 }
+
+.text-muted {
+    color: $gray-600 !important;
+}
+
+.card {
+    border: 0 !important;
+}

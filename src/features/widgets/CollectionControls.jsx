@@ -1,7 +1,7 @@
 import { ButtonGroup, Button } from 'react-bootstrap';
 import Fountain from '../progress/Fountain';
 
-const Controls = ({
+const CollectionControls = ({
     loading,
     refresh,
     settings
@@ -25,4 +25,4 @@ const Controls = ({
     );
 };
 
-export default Controls;
+export default CollectionControls;

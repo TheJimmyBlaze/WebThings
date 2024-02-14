@@ -1,7 +1,8 @@
 @use 'sass:color';
 
-$min-contrast-ratio: 2.5;
+$min-contrast-ratio: 1.5;
 
+$orange: orange;
 $orangered: orangered;
 $red: red;
 $blue: blue;
@@ -23,7 +24,7 @@ $black: $gray-1200;
 $primary: $blue;
 $secondary: $gray-800;
 $warning: $red;
-$info: $orangered;
+$info: $orange;
 
 $dark: $gray-1000;
 $light: $white;
@@ -33,4 +34,3 @@ $very-dark: color.scale($dark, $lightness: -25%);
 $text-white: $gray-300;
 $text-light: $gray-600;
 $text-dark: $dark;
-$text-muted: $gray-600;
