@@ -1,0 +1,15 @@
+
+.loader-progress-bar {
+
+    background: linear-gradient(100deg, orangered 10%, red 20%, blue 60%, red 90%);
+    background-size: 200% 100%;
+    animation: loader-slide-right 3s linear infinite;
+
+    border-radius: 8px;
+    height: 8px;
+}
+
+@keyframes loader-slide-right {
+    0% { background-position: 200% 0%; }
+    100% { background-position: 0% 0%; }
+}
