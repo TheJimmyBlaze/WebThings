@@ -1,5 +1,5 @@
 import { ButtonGroup, Button } from 'react-bootstrap';
-import Loader from '../loader/Loader';
+import Fountain from '../progress/Fountain';
 
 const Controls = ({
     loading,
@@ -11,7 +11,7 @@ const Controls = ({
 
         <div className="d-flex justify-content-end">
 
-            <Loader hidden={!loading}/>
+            <Fountain hidden={!loading}/>
 
             <ButtonGroup className="ms-2">
                 <Button variant="secondary" onClick={refresh}>

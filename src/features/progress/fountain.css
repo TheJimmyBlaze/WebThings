@@ -1,0 +1,17 @@
+
+.fountain-progress-bar {
+
+    flex: 1 1;
+
+    background: linear-gradient(90deg, red 0%, orangered 10%, red 20%, blue 60%, red 90%);
+    background-size: 200% 100%;
+    animation: fountain-flow-right 3s linear infinite;
+
+    border-radius: 8px;
+    height: 8px;
+}
+
+@keyframes fountain-flow-right {
+    0% { background-position: 200% 0%; }
+    100% { background-position: 0% 0%; }
+}
