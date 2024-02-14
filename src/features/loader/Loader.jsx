@@ -1,6 +1,10 @@
 import './loader.css';
 
-const Loader = () => {
+const Loader = ({
+    hidden
+}) => {
+
+    if (hidden) return;
 
     return (
         <div className="loader-progress-bar" />

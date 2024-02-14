@@ -2,8 +2,9 @@
 
 $min-contrast-ratio: 2.5;
 
-$yerrow: #FCA314;
-$oranger: #FC9014;
+$orangered: orangered;
+$red: red;
+$blue: blue;
 
 $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
@@ -19,10 +20,10 @@ $gray-1200: #131313;
 $white: $gray-200;
 $black: $gray-1200;
 
-$primary: $yerrow;
-$secondary: $gray-900;
-$warning: $oranger;
-$info: $gray-800;
+$primary: $blue;
+$secondary: $gray-800;
+$warning: $red;
+$info: $orangered;
 
 $dark: $gray-1000;
 $light: $white;
