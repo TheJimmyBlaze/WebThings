@@ -6,6 +6,7 @@ import './widget.css';
 const Widget = ({
     title,
     hint,
+    loading,
     close,
     render
 }) => {
