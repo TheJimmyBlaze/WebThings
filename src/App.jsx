@@ -4,8 +4,7 @@ const App = () => {
 
   return (
     <div
-      className="vh-100 d-flex flex-column justify-content-center align-items-center text-light overflow-hidden"
-      data-bs-theme="dark" 
+      className="vh-100 d-flex flex-column justify-content-center align-items-center overflow-hidden"
     >
       <DropSpace />
     </div>
